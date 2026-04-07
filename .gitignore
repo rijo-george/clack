@@ -1,0 +1,11 @@
+.DS_Store
+build/
+build_output/
+*.dmg
+_dmg_staging/
+_dmg_temp.dmg
+.vscode/
+.idea/
+*.swp
+xcuserdata/
+DerivedData/

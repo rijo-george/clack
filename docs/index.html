@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clack — Mechanical keyboard sounds for your Mac</title>
+  <meta name="description" content="Satisfying mechanical keyboard sounds for every keystroke. Cherry Blues, Typewriter, Thock. A macOS menu bar app.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="nav-icon">&#127929;</span>
+        <span>Clack</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How It Works</a>
+        <a href="#download" class="nav-cta">Download</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-badge">macOS &middot; Menu Bar App</div>
+      <h1>Make every keystroke<br><span class="gradient-text">satisfying</span></h1>
+      <p class="hero-sub">
+        Mechanical keyboard sounds without the mechanical keyboard.
+        Cherry Blues, Typewriter, Thock. Pick a sound pack and type away.
+      </p>
+      <div class="hero-actions">
+        <a href="https://github.com/rijo-george/clack/releases/download/v1.0.0/Clack-1.0.0.dmg" class="btn btn-primary">
+          <span>Download for Mac</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <!-- Hero visual — menu bar mockup -->
+      <div class="hero-visual">
+        <div class="mockup">
+          <div class="mockup-bar">
+            <div class="mockup-bar-left">
+              <span class="mockup-menubar-icon">&#127929;</span>
+              <span class="mockup-menubar-label">Clack</span>
+            </div>
+            <div class="mockup-bar-right">
+              <span class="mockup-menubar-status">&#9679; Active</span>
+            </div>
+          </div>
+          <div class="mockup-body">
+            <div class="mock-section">
+              <div class="mock-section-label">SOUND PACK</div>
+              <div class="mock-sound-list">
+                <div class="mock-sound-item mock-sound-active">
+                  <span class="mock-sound-icon">&#128264;</span>
+                  <span class="mock-sound-name">Cherry Blue</span>
+                  <span class="mock-sound-check">&#10003;</span>
+                </div>
+                <div class="mock-sound-item">
+                  <span class="mock-sound-icon">&#128264;</span>
+                  <span class="mock-sound-name">Typewriter</span>
+                </div>
+                <div class="mock-sound-item">
+                  <span class="mock-sound-icon">&#128264;</span>
+                  <span class="mock-sound-name">Thock</span>
+                </div>
+                <div class="mock-sound-item">
+                  <span class="mock-sound-icon">&#128264;</span>
+                  <span class="mock-sound-name">Bubble Pop</span>
+                </div>
+              </div>
+            </div>
+            <div class="mock-divider"></div>
+            <div class="mock-section">
+              <div class="mock-section-label">VOLUME</div>
+              <div class="mock-volume">
+                <span class="mock-vol-icon">&#128264;</span>
+                <div class="mock-vol-track">
+                  <div class="mock-vol-fill"></div>
+                  <div class="mock-vol-thumb"></div>
+                </div>
+                <span class="mock-vol-value">75%</span>
+              </div>
+            </div>
+            <div class="mock-divider"></div>
+            <div class="mock-toggle-row">
+              <span class="mock-toggle-label">Enable Sounds</span>
+              <div class="mock-toggle mock-toggle-on">
+                <div class="mock-toggle-knob"></div>
+              </div>
+            </div>
+          </div>
+          <div class="mockup-status">
+            Cherry Blue &middot; 75% &middot; Listening for keystrokes
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="section-inner">
+      <div class="section-label">Features</div>
+      <h2>Your keyboard sounds<br><span class="gradient-text">incredible.</span></h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">&#128264;</div>
+          <h3>Sound Packs</h3>
+          <p>Cherry Blue, Typewriter, Thock, Bubble Pop. Each pack is carefully recorded from real keyboards for authentic feel.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#127900;</div>
+          <h3>Volume Control</h3>
+          <p>Dial in the perfect level. From subtle background texture to full clicky immersion. Adjust anytime from the menu bar.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#9776;</div>
+          <h3>Menu Bar Toggle</h3>
+          <p>Lives in your menu bar, out of the way. One click to switch sound packs, adjust volume, or pause. No dock icon.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128274;</div>
+          <h3>Accessibility Permission</h3>
+          <p>Uses macOS Accessibility to listen for keystrokes. No keylogging, no network calls. Your typing stays private.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#9889;</div>
+          <h3>Lightweight</h3>
+          <p>Near-zero CPU usage. Sounds play instantly on each keystroke with no perceptible delay. Battery-friendly.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#127912;</div>
+          <h3>Launch at Login</h3>
+          <p>Set it once, forget it. Clack starts with your Mac and remembers your sound pack and volume preferences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="how" id="how">
+    <div class="section-inner">
+      <div class="section-label">How It Works</div>
+      <h2>Three steps to<br><span class="gradient-text">clicky bliss.</span></h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Launch Clack</h3>
+            <p>Open the app and grant Accessibility permission. Clack appears in your menu bar, ready to go.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Pick a sound pack</h3>
+            <p>Cherry Blue for that classic mechanical feel. Typewriter for vintage vibes. Thock for deep, satisfying keystrokes.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>Type away</h3>
+            <p>Every keystroke plays your chosen sound. Adjust volume, switch packs, or toggle on and off from the menu bar anytime.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section class="cta-section" id="download">
+    <div class="section-inner">
+      <div class="cta-card">
+        <h2>Ready to<br><span class="gradient-text">get clicky?</span></h2>
+        <p>Download Clack and make every keystroke satisfying.</p>
+
+        <div class="download-buttons">
+          <a href="https://github.com/rijo-george/clack/releases/download/v1.0.0/Clack-1.0.0.dmg" class="download-card">
+            <div class="download-icon">&#128187;</div>
+            <div class="download-info">
+              <div class="download-label">Download for</div>
+              <div class="download-platform">macOS</div>
+            </div>
+            <svg class="download-arrow" width="20" height="20" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="nav-icon">&#127929;</span>
+        <span>Clack</span>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/rijo-george/clack">GitHub</a>
+        <span>&middot;</span>
+        <span>macOS</span>
+        <span>&middot;</span>
+        <span>Menu Bar App</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
